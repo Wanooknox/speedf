@@ -5,15 +5,18 @@
   "main": "index.js",
   "scripts": {
     "start": "electron .",
+    "rebuild": "electron-rebuild -f",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "electron": "^1.6.10",
-    "pdfjs-dist": "^1.8.386"
+    "jquery": "^3.2.1",
+    "pdfjs-dist": "^1.8.432"
   },
   "devDependencies": {
+    "electron-rebuild": "^1.5.11",
     "eslint": "^3.19.0",
     "eslint-config-standard": "^10.2.1",
     "eslint-plugin-import": "^2.3.0",
